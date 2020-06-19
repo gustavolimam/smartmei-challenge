@@ -1,0 +1,11 @@
+type Query {
+    RequestSmartMEI(url: String!): ResponseSmartMEI
+}
+
+type ResponseSmartMEI {
+    dataConsulta: String,
+    descricaoTarifa: String,
+    valorReal: Float,
+    valorDolar: Float,
+    valorEuro: Float
+}
